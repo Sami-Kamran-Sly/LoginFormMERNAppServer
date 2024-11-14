@@ -10,7 +10,7 @@ const errorHandlerMiddleware = require("./middleware/error-handler");
 
 app.use(
   cors({
-    origin: "https://login-form-mern-app-server.vercel.app", // Correct URL without trailing slash
+    origin: "https://login-form-front-end.vercel.app", // Correct URL without trailing slash
     credentials: true,
   })
 );
