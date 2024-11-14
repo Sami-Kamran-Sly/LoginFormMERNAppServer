@@ -4,7 +4,7 @@ const JWT = require("jsonwebtoken");
 const {
   hashPassword,
   comparePassword,
-} = require("../hashPassword/HashPassword");
+} = require("../hashPassword/hashPassword");
 
 const registerController = async (req, res) => {
   try {
